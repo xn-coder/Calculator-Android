@@ -1,34 +1,31 @@
-# XNCoder/Calculator-Android
+# 🚀 Calculator-Android
 
-## Overview
-XNCoder/Calculator-Android is a simple, lightweight calculator app developed in Java for Android. It provides basic mathematical operations like addition, subtraction, multiplication, and division. The app is designed to be user-friendly and efficient for everyday calculations.
+## 🧠 Tech Stack
+- Unknown
 
-## Features
-- **Basic Operations:** Perform addition, subtraction, multiplication, and division.
-- **Clear Functionality:** Easily clear all inputs and results with a clear button.
-- **Error Handling:** Gracefully handles division by zero with appropriate error messages.
+## 📂 Project Structure
+- README.md
+- local.properties
+- gradlew.bat
+- build.gradle
+- .gitignore
+- gradlew
+- gradle.properties
+- settings.gradle
+- .gradle/file-system.probe
+- .gradle/7.5/gc.properties
+- .gradle/7.5/fileChanges/last-build.bin
+- .gradle/7.5/fileHashes/resourceHashesCache.bin
+- .gradle/7.5/fileHashes/fileHashes.bin
+- .gradle/7.5/fileHashes/fileHashes.lock
+- .gradle/7.5/executionHistory/executionHistory.lock
+- .gradle/7.5/executionHistory/executionHistory.bin
+- .gradle/7.5/checksums/md5-checksums.bin
+- .gradle/7.5/checksums/sha1-checksums.bin
+- .gradle/7.5/checksums/checksums.lock
+- .gradle/7.5/dependencies-accessors/dependencies-accessors.lock
 
-## Installation
-To install and run the app on your Android device or emulator, follow these steps:
-1. Clone the repository:
-   git clone https://github.com/xn-coder/Calculator-Android
-2. Open the project in Android Studio.
-3. Build the project using Gradle.
-4. Run the app on an Android device or emulator.
+## ⚙️ Setup
 
-## Usage
-1. Launch the app on your device.
-2. Input numbers using the on-screen number pad.
-3. Choose the desired operation (addition, subtraction, multiplication, division).
-4. Input the second number.
-5. Tap the equals button to see the result.
-6. Use the clear button to reset everything and start a new calculation.
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## About
-This project is developed by XNCoders as an open-source initiative to provide a simple and effective calculator app for Android users.
-
-## Contact
-For more information and support, please contact the repository owner.
+---
+🤖 Auto-generated README by automation engine
