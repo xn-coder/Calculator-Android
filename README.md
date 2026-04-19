@@ -10,110 +10,139 @@
 </p>
 
 
-Here's a premium, modern, and minimal GitHub README for your `Calculator-Android` project.
+Here's a premium GitHub README for your `Calculator-Android` project, designed with a modern, minimal, and beginner-friendly UI.
 
----
+```markdown
+<div align="center">
+  <img src="https://img.shields.io/badge/Kotlin-0096D6?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle">
+</div>
 
-# 🚀 Calculator-Android
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange.svg)](https://kotlinlang.org/)
-[![Android](https://img.shields.io/badge/Platform-Android-3DDC84.svg)](https://developer.android.com/)
-
-A sleek and modern calculator application built for Android devices. Perform basic arithmetic operations with a user-friendly interface.
+<div align="center">
+  <br>
+  <h1>🚀 Calculator-Android</h1>
+  
+  [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/your-username/Calculator-Android/actions)
+  [![License](https://img.shields.io/github/license/your-username/Calculator-Android?style=for-the-badge)](LICENSE)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/your-username/Calculator-Android?style=for-the-badge)](https://github.com/your-username/Calculator-Android/commits/main)
+  [![GitHub repo size](https://img.shields.io/github/repo-size/your-username/Calculator-Android?style=for-the-badge)](https://github.com/your-username/Calculator-Android)
+  <br>
+  
+  <p>A sleek and functional Android calculator app designed for effortless computations ➕, 
+  perfect for daily arithmetic on your mobile device. Get ready to crunch numbers with ease! ✨</p>
+</div>
 
 ---
 
 ## ✨ Features
 
-*   ➕ Basic arithmetic operations: addition, subtraction, multiplication, division.
-*   🗑️ Clear functionality to reset input.
-*   📱 Responsive UI, adapting to various screen sizes.
-*   🌓 Supports both Light and Dark modes for a comfortable viewing experience.
+*   **🔢 Basic Operations:** Perform addition, subtraction, multiplication, and division.
+*   **🗑️ Clear Functionality:** Easily clear current input (CE) or reset the entire calculation (C).
+*   **📱 Responsive UI:** Enjoy a consistent experience across various Android screen sizes and orientations.
+*   **🎨 Modern Design:** A clean, intuitive interface for a smooth user experience.
 
 ---
 
 ## 🧠 Tech Stack
 
-This project is built using cutting-edge Android development tools:
+This project is built using modern Android development tools and best practices:
 
-*   **Kotlin:** Primary programming language.
-*   **Android SDK:** Core framework for Android development.
-*   **Gradle:** Advanced build automation system.
-*   **Android Studio:** Integrated Development Environment (IDE).
+*   **📱 Android SDK:** The core framework for building Android applications.
+*   **☕ Kotlin:** A modern, concise, and safe programming language recommended for Android development.
+*   **🛠️ Gradle:** An advanced build automation system used for project management and dependency handling.
+*   **🖼️ XML:** Used for defining the user interface layouts and elements.
 
 ---
 
 ## ⚙️ Installation
 
-To get `Calculator-Android` up and running on your local machine:
+To get this project up and running on your local machine, follow these simple steps:
 
-1.  **Clone the repository:**
+1.  **Prerequisites:**
+    *   Make sure you have [Android Studio](https://developer.android.com/studio) installed.
+    *   A recent version of the Java Development Kit (JDK) is also required (Android Studio usually bundles one).
+
+2.  **Clone the Repository:**
     ```bash
     git clone https://github.com/your-username/Calculator-Android.git
     cd Calculator-Android
     ```
-2.  **Open in Android Studio:**
+
+3.  **Open in Android Studio:**
     *   Launch Android Studio.
-    *   Select `File > Open` and navigate to the cloned `Calculator-Android` directory.
-3.  **Sync Gradle:**
-    *   Android Studio will automatically prompt you to sync Gradle. If not, click the "Sync Project with Gradle Files" button in the toolbar.
-    *   Ensure you have the necessary Android SDK versions installed (Android Studio will usually suggest missing components).
+    *   Select `File` -> `Open` (or `Open an existing Android Studio project`).
+    *   Navigate to the `Calculator-Android` directory you just cloned and click `OK`.
+
+4.  **Sync Gradle:**
+    *   Android Studio will automatically start syncing the project with Gradle. If it doesn't, click the `Sync Project with Gradle Files` button (🐘 icon in the toolbar).
+    *   Wait for the sync to complete successfully.
 
 ---
 
 ## ▶️ Usage
 
-Once installed, running the app is straightforward:
+Once the project is successfully opened and synced in Android Studio, you can run the app:
 
-1.  **Connect a device or launch an emulator:**
-    *   Ensure an Android device is connected via USB (with Developer Options and USB debugging enabled) or start an Android Emulator from Android Studio's AVD Manager.
-2.  **Run the application:**
-    *   Click the `Run 'app'` button (green play icon ▶️) in the Android Studio toolbar.
-    *   Select your connected device or running emulator when prompted.
+1.  **Select a Device:**
+    *   In Android Studio, choose an Android Emulator or a physical Android device connected via USB from the target device dropdown menu (usually at the top of the window).
+
+2.  **Run the App:**
+    *   Click the `Run 'app'` button (the green ▶️ icon) in the toolbar.
+    *   Android Studio will build and install the app on your selected device/emulator.
+
+3.  **Start Calculating!**
+    *   Once launched, you can interact with the calculator by tapping on the numbers and operation buttons.
+    *   Use `C` to clear all input and `CE` to clear the last entered number.
 
 ---
 
 ## 📂 Project Structure
 
-A concise overview of the project's main directories and files:
+A quick overview of the key files and directories in this project:
 
-*   `.gradle/`: Gradle build cache and internal files.
-*   `.gitignore`: Specifies intentionally untracked files to ignore.
-*   `app/`: Contains all the source code, resources, and build files for the Android application module.
-    *   `src/`: Main source set.
-        *   `main/`: Core application source.
-            *   `java/` (or `kotlin/`): Kotlin source code files.
-            *   `res/`: Application resources (layouts, drawables, strings, etc.).
-            *   `AndroidManifest.xml`: Application's manifest file.
-    *   `build.gradle`: Module-level Gradle build script.
-*   `build.gradle`: Project-level Gradle build script.
+*   `.gradle/`: Contains Gradle's cache and build artifacts.
+    *   `file-system.probe`: Gradle internal file for file system checks.
+    *   `7.5/`: Specific Gradle version directory.
+        *   `gc.properties`: Garbage collection properties for Gradle daemon.
+        *   `fileChanges/last-build.bin`: Records file changes from the last build.
+        *   `fileHashes/`: Caches file hashes for incremental builds.
+            *   `resourceHashesCache.bin`: Cached resource hashes.
+            *   `fileHashes.bin`: General file hashes cache.
+            *   `fileHashes.lock`: Lock file for file hashes.
+        *   `executionHistory/executionHistory.lock`: Lock file for execution history.
+*   `build.gradle`: Project-level build script, defines dependencies and plugins.
 *   `gradle/`: Gradle wrapper files.
-*   `gradlew`, `gradlew.bat`: Gradle wrapper scripts for Unix-like and Windows systems.
-*   `gradle.properties`: Project-wide Gradle settings.
-*   `local.properties`: Local build system properties (specific to your machine, ignored by Git).
-*   `README.md`: This file!
-*   `settings.gradle`: Defines project modules.
+    *   `wrapper/gradle-wrapper.jar`: Gradle wrapper JAR.
+    *   `wrapper/gradle-wrapper.properties`: Gradle wrapper configuration.
+*   `gradlew`: Gradle wrapper script for Unix-like systems.
+*   `gradlew.bat`: Gradle wrapper script for Windows.
+*   `gradle.properties`: Project-wide Gradle properties (e.g., memory settings).
+*   `.gitignore`: Specifies intentionally untracked files to ignore by Git.
+*   `local.properties`: Local build system properties for your specific environment (e.g., Android SDK path). **(Usually not committed)**
+*   `README.md`: This file, providing an overview of the project.
+*   `settings.gradle`: Defines the project structure and modules.
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! If you'd like to improve this project:
+Contributions are always welcome! If you have suggestions for improvements, new features, or bug fixes, please feel free to:
 
-1.  **Fork** the repository.
-2.  **Create** a new branch (`git checkout -b feature/AmazingFeature`).
-3.  **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  **Push** to the branch (`git push origin feature/AmazingFeature`).
-5.  **Open** a Pull Request.
+1.  ✨ Fork this repository.
+2.  🧩 Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3.  ✅ Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  ⬆️ Push to the branch (`git push origin feature/AmazingFeature`).
+5.  📬 Open a Pull Request.
 
 ---
 
 ## 📜 License
 
-This project is distributed under the MIT License. See the `LICENSE` file for more information.
+This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for more details.
 
 ---
+```
 
 ---
 
